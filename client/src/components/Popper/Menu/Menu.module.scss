@@ -1,0 +1,41 @@
+// menu
+
+.ellipsis-vertical {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.content {
+    min-width: 223px;
+    padding: 8px 0;
+    font-size: 1.6rem;
+    line-height: 2.1;
+}
+
+.menu-list {
+    color: rgb(22, 24, 35);
+    padding: 10px 8px 10px 16px;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.menu-list-row {
+    display: flex;
+    align-items: center;
+    color: rgb(22, 24, 35);
+    gap: 8px;
+
+    & img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.menu-list-desc {
+    font-weight: 600;
+}
